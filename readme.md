@@ -11,3 +11,5 @@ Scaling with transform can address the issue of background image causing whitesp
 ## Implementing the addition of rows and columns to Revogrid using Vue 2. Due to the lack of real-time updates in the data component in version 2, the array needs to be reassigned after each manipulation.
 
 https://codesandbox.io/p/sandbox/revogrid-vuecomponent-forked-2ck9nh?file=%2Fsrc%2FApp.vue%3A13%2C32-13%2C37
+
+In V2, when passing between parent and child components, directly bind the array in a for loop, and updating can be achieved through push.
